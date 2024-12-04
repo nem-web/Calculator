@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 20px;
+}
