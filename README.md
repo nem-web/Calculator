@@ -24,10 +24,7 @@ You will need a web browser to run this application.
    ```
 
 1. Navigate to the project directory
-2.  ```sh
-   cd Calculator
-   ```
-
+2. <code>cd Calculator</code>
 3. Open index.html in your web browser.
 
 
