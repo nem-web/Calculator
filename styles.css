@@ -1,37 +1,41 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.row{
+.row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     /* margin: 15px; */
     padding: 5px;
 
-    .plus{
+    .plus {
         background-color: #1942e4;
         border-radius: 50%;
     }
-    .minus{
+
+    .minus {
         background-color: #1942e4;
         border-radius: 50%;
     }
-    .x{
+
+    .x {
         background-color: #1942e4;
         border-radius: 50%;
     }
-    .divide{
+
+    .divide {
         background-color: #1942e4;
         border-radius: 50%;
     }
-    .equal{
+
+    .equal {
         background-color: #27e3e3;
     }
 }
 
-.col{
+.button {
     padding: 30px;
     margin: 10px;
     background: rgb(91, 91, 137);
@@ -53,21 +57,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
-.container{
+.container {
     margin-top: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
 
-    .calculator{
+    .calculator {
         background: linear-gradient(#061a47, #242748);
         border-radius: 8px;
         width: 21.5%;
-        h1{
+
+        h1 {
             text-align: center;
         }
 
@@ -81,6 +86,36 @@
             outline: none;
             color: white;
             font-size: 1.2em;
-          }
+        }
     }
+}
+
+.clear {
+    position: absolute;
+    background-color: #fff;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    right: 39.8%;
+    top: 31%;
+    cursor: pointer;
+    height: 21px;
+    width: 60px;
+    transition: all 0.3s ease;
+    border-radius: 15px;
+}
+
+.back {
+    position: absolute;
+    background-color: #fff;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    right: 44%;
+    top: 31%;
+    cursor: pointer;
+    height: 21px;
+    width: 43px;
+    transition: all 0.3s ease;
+    border-radius: 15px;
 }
