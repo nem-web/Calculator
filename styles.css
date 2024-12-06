@@ -74,6 +74,8 @@
 
         h1 {
             text-align: center;
+            color: rgb(168, 166, 163);
+            opacity: 20%;
         }
 
         .input-box {
