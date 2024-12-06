@@ -24,12 +24,16 @@ You will need a web browser to run this application.
    ```
 
 1. Navigate to the project directory
-    <code>cd Calculator</code>
-2. Open index.html in your web browser.
+2.  ```sh
+   cd Calculator
+   ```
 
-<b>Usage</b>
+3. Open index.html in your web browser.
+
+
+<b>Usage</b><br>
 Use the buttons on the calculator to perform arithmetic operations. The results will be displayed on the screen.
 
-<b>Contributing</b>
+<b>Contributing</b><br>
 Contributions are welcome! Please open an issue or submit a pull request if you have any suggestions or improvements.
 
